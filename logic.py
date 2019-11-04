@@ -137,8 +137,8 @@ class Logic(object):
     @staticmethod
     def run():
         if Logic.current_process is None:
-            target = os.path.join(os.path.dirname(__file__), 'GateOne', 'run_gateone.py', '--session_dir="/tmp/g"')
-            cmd = ['python', target]
+            target = os.path.join(os.path.dirname(__file__), 'GateOne', 'run_gateone.py')
+            cmd = ['python', target, '--session_dir=/tmp/g']
             Logic.current_process = subprocess.Popen(cmd)
             #--session_dir="your/new/shorter/path"
 
