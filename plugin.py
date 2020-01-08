@@ -22,7 +22,7 @@ from framework.util import Util, AlchemyEncoder
 from system.logic import SystemLogic
             
 # 패키지
-package_name = __name__.split('.')[0].split('_sjva')[0]
+package_name = __name__.split('.')[0]
 logger = get_logger(package_name)
 from logic import Logic
 from model import ModelSetting
@@ -44,7 +44,7 @@ plugin_info = {
     'icon' : '',
     'developer' : 'soju6jan',
     'description' : 'GateOne 런처<br><a href="https://github.com/liftoff/GateOne" target="_blank">GateOne Git</a><br>웹 기반 SSH Client<br>윈도우는 지원하지 않습니다.',
-    'home' : 'https://github.com/soju6jan/launcher_gateon_sjva',
+    'home' : 'https://github.com/soju6jan/launcher_gateone',
     'more' : '',
 }
 #########################################################
