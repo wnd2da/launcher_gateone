@@ -46,6 +46,7 @@ plugin_info = {
     'description' : 'GateOne 런처<br><a href="https://github.com/liftoff/GateOne" target="_blank">GateOne Git</a><br>웹 기반 SSH Client<br>윈도우는 지원하지 않습니다.',
     'home' : 'https://github.com/soju6jan/launcher_gateone',
     'more' : '',
+    'platform' : ['Linux', 'Darwin']
 }
 #########################################################
 
