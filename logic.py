@@ -170,7 +170,7 @@ class Logic(object):
                         shutil.rmtree(target)
                 commands = [
                     ['msg', u'잠시만 기다려주세요.'],
-                    ['git', 'clone', 'https://github.com/liftoff/GateOne', target],
+                    ['git', 'clone', 'https://github.com/liftoff/GateOne', target, '--depth', '1'],
                     ['python', os.path.join(target, 'setup.py'), 'install'],
                     ['python', '-m', 'pip', 'install', 'tornado==4.2.1'],
                 ]
